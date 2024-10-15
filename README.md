@@ -25,34 +25,5 @@ Este servlet processa as requisições e realiza os cálculos financeiros. Aqui 
 - Exibe os resultados no console.
 - Redireciona o usuário de volta ao formulário HTML.
 
-### `index.html`
 
-Um formulário simples que coleta os dados necessários para o cálculo.
-
-```html
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Checkpoint</title>
-</head>
-<body>
-<h1>Valor total de financiamento 2</h1>
-<form action="CalculoValor" method="post">
-    <label for="nome">Nome do cliente: </label>
-    <input type="text" name="nome"><br><br>
-
-    <label for="valor">Valor do veículo R$: </label>
-    <input type="text" name="valor"><br><br>
-
-    <label for="taxa">Taxa anual de juros: </label>
-    <input type="text" name="taxa"><br><br>
-
-    <label for="prazo">Prazo de financiamento (em anos): </label>
-    <input type="text" name="prazo"><br><br>
-
-    <input type="submit" value="Calcular valor total">
-</form>
-</body>
-</html>
 
